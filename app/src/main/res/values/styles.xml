@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeOverlay.App.TextInputLayout" parent="">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="editTextStyle">@style/Widget.Material3.TextInputEditText.OutlinedBox</item>
+    </style>
+
+    <style name="ThemeOverlay.App.LoginButton" parent="">
+        <item name="colorPrimary">@color/grey</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+    </style>
+
+    <style name="Widget.App.LoginButton" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.LoginButton</item>
+        <item name="backgroundTint">?attr/loginButtonColor</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LoginButton" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+</resources>

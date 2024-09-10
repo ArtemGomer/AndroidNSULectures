@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="yellow">#FFD900</color>
+    <color name="blue">#0075FF</color>
+    <color name="grey">#4F4F4F</color>
+    <color name="grey_300">#F9F9F9</color>
+
+    <color name="red_youtube">#FE0000</color>
+    <color name="green_android">#45AD52</color>
+    <color name="blue_twitter">#3DA0F5</color>
+    <color name="blue_vk">#0077FE</color>
+    <color name="blue_telegram">#18A2E5</color>
+    <color name="purple_discord">#5865F1</color>
+    <color name="black_github">#151013</color>
+</resources>
