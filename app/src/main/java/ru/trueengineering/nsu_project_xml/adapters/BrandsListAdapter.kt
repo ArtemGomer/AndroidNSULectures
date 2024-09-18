@@ -27,6 +27,7 @@ class BrandsListAdapter :
         when (holder) {
             is BrandViewHolder -> holder.bind(item = getItem(position) as ListItem.BrandItem)
             is HeaderViewHolder -> holder.bind(item = getItem(position) as ListItem.HeaderItem)
+            else -> error("Unknown view type")
         }
     }
 
@@ -55,9 +56,4 @@ private object BrandsDiffUtil : DiffUtil.ItemCallback<ListItem>() {
             is ListItem.HeaderItem -> oldItem == (newItem as ListItem.HeaderItem)
         }
     }
-}
-
-fun main() {
-    val a = 5
-    println(a)
 }

@@ -4,6 +4,7 @@ import android.content.Context
 import android.os.Bundle
 import android.util.TypedValue
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import ru.trueengineering.nsu_project_xml.adapters.BrandsListAdapter
 import ru.trueengineering.nsu_project_xml.databinding.ActivityMainListBinding
 import ru.trueengineering.nsu_project_xml.itemDecorations.BrandsHorizontalPaddingDecoration
